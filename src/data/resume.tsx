@@ -150,7 +150,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/conductor.jpeg",
+      image: "/conductor.png",
       video: "",
     },
     {
@@ -180,6 +180,35 @@ export const DATA = {
       ],
       image: "",
       video: "",
+    },
+    {
+      title: "Environmental Restoration Dashboard",
+      href: "https://v0-restoration-project-app.vercel.app/",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed an environmental restoration dashboard that allows users to track and manage multiple restoration projects, monitor carbon credits issued, visualize environmental impact metrics (like total carbon credits, area restored, and project progress), and view detailed project and partner data in an intuitive platform.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://v0-restoration-project-app.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/carbon-credit.png",
+      video:
+        "",
     },
     // {
     //   title: "Automatic Chat",
