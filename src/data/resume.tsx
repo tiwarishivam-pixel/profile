@@ -97,6 +97,20 @@ export const DATA = {
   //       "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
   //   },
   // ],
+  work: [
+      {
+    company: "Personal Projects",
+    href: "https://your-portfolio-link.com",
+    badges: ["Project"],
+    location: "Remote",
+    title: "Full Stack / AI Developer",
+    logoUrl: "",
+    start: "2023",
+    end: "Present",
+    description:
+      "Built multiple full-stack and AI-based applications including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard using React, TypeScript, Node.js, and AI tooling.",
+  },
+  ],
   projects: [
     {
       title: "Senri - AI Career Coach",
@@ -243,6 +257,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Error404 Hackathon",
+      href: "",
       dates: "December 10th - 11th, 2025",
       location: "Mumbai, Churchgate",
       description:
@@ -250,10 +265,17 @@ export const DATA = {
       image:
         "https://d8it4huxumps7.cloudfront.net/uploads/images/festival/banner/658dc168e8fac_festival_banner.png?d=1280x371",
       mlh: "",
-      links: [],
+      links: [
+        {
+          title: "Unstop",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://unstop.com/hackathons",
+        },
+      ],
     },
     {
       title: "Mumbai Hacks",
+      href: "",
       dates: "October 29, 2025",
       location: "Mumbai, Bandra",
       description:
@@ -262,12 +284,13 @@ export const DATA = {
         "https://erp.adgully.com/artical_image/9f49d2619647ac858680e801eb7e31ad.jpeg",
       mlh: "",
       links: [
-        // {
-        //   title: "Source",
-        //   icon: <Icons.github className="h-4 w-4" />,
-        //   href: "https://github.com/UWPortalSDK/crowmark",
-        // },
+        {
+          title: "Unstop",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://unstop.com/hackathons",
+        },
       ],
     },
   ],
+
 } as const;
