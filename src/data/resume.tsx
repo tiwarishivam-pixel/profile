@@ -20,7 +20,7 @@ export const DATA = {
   location: "Mumbai, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
-    "Engineer building products. Learning entrepreneurship. Building with AI, SaaS, and blockchain to solve real problems.",
+    "Engineer building products. Learning entrepreneurship. Building with AI, SaaS, and blockchain to solve real problems. Open to freelance and contract work.",
   summary:
     "I’m a software engineer in the making, currently working as a freelancer and building my own products. Instead of following a traditional job-first path, I’m focused on learning by building real-world projects and experimenting with SaaS and AI-based tools. So far, I’ve worked on multiple personal and freelance projects, explored full-stack development and AI, and I’m actively building products for creators and students. My goal is to turn ideas into useful software and grow into a full-time entrepreneur.",
   avatarUrl: "/me.jpeg",
