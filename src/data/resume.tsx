@@ -16,7 +16,7 @@ import { Csharp } from "@/components/ui/svgs/csharp";
 export const DATA = {
   name: "Shivam Tiwari",
   initials: "ST",
-  url: "https://dillion.io",
+  url: "https://shivam-dev-profile.vercel.app/",
   location: "Mumbai, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
@@ -103,12 +103,11 @@ export const DATA = {
     href: "https://your-portfolio-link.com",
     badges: ["Project"],
     location: "Remote",
-    title: "Full Stack / AI Developer",
+    title: "Full Stack / AI / Smart Contract Developer",
     logoUrl: "",
     start: "2023",
     end: "Present",
-    description:
-      "Built multiple full-stack and AI-based applications including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard using React, TypeScript, Node.js, and AI tooling.",
+    description: "Built multiple applications spanning blockchain, full-stack, and AI—including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard—using React, TypeScript, Node.js, smart contracts, and modern AI tooling. Currently focused on building decentralized applications and blockchain-based systems.Built multiple full-stack and AI-based applications including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard using React, TypeScript, Node.js, and AI tooling.",
   },
   ],
   projects: [
