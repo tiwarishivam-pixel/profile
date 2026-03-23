@@ -98,26 +98,27 @@ export const DATA = {
   //   },
   // ],
   work: [
-      {
-    company: "Personal Projects",
-    href: "https://your-portfolio-link.com",
-    badges: ["Project"],
-    location: "Remote",
-    title: "Full Stack / AI / Smart Contract Developer",
-    logoUrl: "",
-    start: "2023",
-    end: "Present",
-    description: "Built multiple applications spanning blockchain, full-stack, and AI—including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard—using React, TypeScript, Node.js, smart contracts, and modern AI tooling. Currently focused on building decentralized applications and blockchain-based systems.Built multiple full-stack and AI-based applications including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard using React, TypeScript, Node.js, and AI tooling.",
-  },
+    {
+      company: "Personal Projects",
+      href: "https://your-portfolio-link.com",
+      badges: ["Project"],
+      location: "Remote",
+      title: "Full Stack / AI / Smart Contract Developer",
+      logoUrl: "",
+      start: "2023",
+      end: "Present",
+      description:
+        "Built multiple applications spanning blockchain, full-stack, and AI—including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard—using React, TypeScript, Node.js, smart contracts, and modern AI tooling. Currently focused on building decentralized applications and blockchain-based systems.Built multiple full-stack and AI-based applications including Senri (AI career platform), EchoTube (YouTube summarizer), and an environmental restoration dashboard using React, TypeScript, Node.js, and AI tooling.",
+    },
   ],
   projects: [
     {
-      title: "Senri - AI Career Coach",
-      href: "",
-      dates: "September 2024 - Feb 2025",
+      title: "TalentOS - AI Placement and Career Coach",
+      href: "https://placement-ai-chi.vercel.app/",
+      dates: "September 2025 - Feb 2026",
       active: true,
       description:
-        "Developed Senri, an AI-powered career development platform that helps students prepare for jobs through smart assessments, resume analysis, interview practice, and personalized learning insights.",
+        "Developed TalentOs, an AI-powered placement and career development platform that helps students prepare for jobs through smart assessments, resume analysis, interview practice, and personalized learning insights.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -130,22 +131,22 @@ export const DATA = {
         "Twilio",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://placement-ai-chi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/talentos.png",
       video: "",
     },
     {
-      title: "The Conductor",
-      href: "",
+      title: "Aawaaz - Decentralized Journalism Platform",
+      href: "https://aawaz-neon.vercel.app/",
       dates: "january 2026 - Present",
       active: true,
       description:
-        "Developed The Conductor, an AI-driven inbox assistant that filters, prioritizes, and organizes emails to eliminate inbox fatigue.",
+        "Aawaaz is a decentralized journalism platform using blockchain, decentralized identity, and zero-knowledge proofs to enable secure, anonymous reporting with verifiable ownership, censorship resistance, and trustless monetization.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -155,24 +156,28 @@ export const DATA = {
         "Stripe",
         "Shadcn UI",
         "Magic UI",
-      ],
+        "foundry",
+        "solidity",
+        "Cloudflare Workers",
+        "Monad",
+        ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/tiwarishivam-pixel/Smart-Ai-Staff",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://aawaz-neon.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/conductor.png",
+      image: "/aawaz.png",
       video: "",
     },
     {
-      title: "Reels Pro",
-      href: "",
+      title: "Launch Labs",
+      href: "https://launch-lab-v2.vercel.app/",
       dates: "August 2024 - September 2024",
       active: true,
       description:
-        "Created Reel Pro, a content planning platform for YouTubers and short-form video creators.",
+        `An advanced "Text-to-App" platform that transforms natural language prompts into functional, production-ready React interfaces. Inspired by industry leaders like v0 and Lovable, LaunchLab features an iterative editing engine that allows users to generate, preview, and refine complex UI components in real-time.`,
       technologies: [
         "Next.js",
         "Typescript",
@@ -181,17 +186,18 @@ export const DATA = {
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
-        "Stripe",
+        "Razorpay",
         "Cloudflare Workers",
+        "Anthropic API",
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/tiwarishivam-pixel/ReelsPro",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://launch-lab-v2.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/launchlabs.png",
       video: "",
     },
     {
@@ -220,8 +226,32 @@ export const DATA = {
         },
       ],
       image: "/carbon-credit.png",
-      video:
-        "",
+      video: "",
+    },
+    {
+      title: "More Projects & Open Source",
+      href: "https://github.com/tiwarishivam-pixel", 
+      dates: "2023 - Present",
+      active: true,
+      description: "While the projects above represent my featured full-stack and AI work, I have 14+ additional repositories ranging from Blockchain Smart Contracts (Solidity/Foundry) to Python-based automation tools and DSA implementations. Explore my full coding journey and open-source contributions on GitHub.",
+      technologies: [
+        "GitHub",
+        "Open Source",
+        "Solidity",
+        "Foundry",
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "links": [
+        {
+          "type": "Source",
+          "href": "https://github.com/tiwarishivam-pixel",
+          "icon": <Icons.github className="size-3" />
+        }
+      ],
+      image: "/github-overview.png", 
+      video: "",
     },
     // {
     //   title: "Automatic Chat",
@@ -291,5 +321,4 @@ export const DATA = {
       ],
     },
   ],
-
 } as const;
