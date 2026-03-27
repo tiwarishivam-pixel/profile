@@ -31,8 +31,8 @@ export const DATA = {
     { name: "Node.js", icon: Nodejs },
     { name: "Python", icon: Python },
     { name: "Postgres", icon: Postgresql },
-    // { name: "Docker", icon: Docker },
-    // { name: "Kubernetes", icon: Kubernetes },
+    { name: "Docker", icon: Docker },
+    { name: "Kubernetes", icon: Kubernetes },
     { name: "MongoDB", icon: MongoDB },
     { name: "C++", icon: Csharp },
     { name: "Solidity", icon: Solidity },
@@ -160,7 +160,7 @@ export const DATA = {
         "solidity",
         "Cloudflare Workers",
         "Monad",
-        ],
+      ],
       links: [
         {
           type: "Website",
@@ -176,8 +176,7 @@ export const DATA = {
       href: "https://launch-lab-v2.vercel.app/",
       dates: "August 2024 - September 2024",
       active: true,
-      description:
-        `An advanced "Text-to-App" platform that transforms natural language prompts into functional, production-ready React interfaces. Inspired by industry leaders like v0 and Lovable, LaunchLab features an iterative editing engine that allows users to generate, preview, and refine complex UI components in real-time.`,
+      description: `An advanced "Text-to-App" platform that transforms natural language prompts into functional, production-ready React interfaces. Inspired by industry leaders like v0 and Lovable, LaunchLab features an iterative editing engine that allows users to generate, preview, and refine complex UI components in real-time.`,
       technologies: [
         "Next.js",
         "Typescript",
@@ -198,6 +197,35 @@ export const DATA = {
         },
       ],
       image: "/launchlabs.png",
+      video: "",
+    },
+    {
+      title: "Royale Rumble",
+      href: "",
+      dates: "2025",
+      active: true,
+      description:
+        "A decentralized poker dApp designed to eliminate centralized control, hidden platform fees, and fund custody risks. Royale Rumble enables trustless gameplay using smart contracts, ensuring transparency, fairness, and secure on-chain transactions. The platform addresses real-world issues like downtime, fund lock-in, and lack of trust in traditional poker systems by leveraging blockchain technology.",
+      technologies: [
+        "Solidity",
+        "Ethereum",
+        "Ethers.js",
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Node.js",
+        "Wallet Integration",
+        "Smart Contracts",
+        "Web3",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/tiwarishivam-pixel/royale-rumble",
+          icon: '<Icons.github className="size-3" />',
+        },
+      ],
+      image: "/royale-rumble.png",
       video: "",
     },
     {
@@ -229,11 +257,40 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Rolly-Polly",
+      href: "",
+      dates: "2025",
+      active: true,
+      description: "A decentralized AI-powered prediction market platform that allows users to create and deploy custom on-chain AI agents. These agents analyze market trends, user behavior, and historical data to provide intelligent insights and predictions. Rolly-Polly combines blockchain transparency with AI-driven decision-making, enabling trustless, personalized financial guidance and automated strategies.",
+      technologies: [
+    "Solidity",
+    "Ethereum",
+    "Ethers.js",
+    "React",
+    "Next.js",
+    "Node.js",
+    "AI APIs",
+    "Smart Contracts",
+    "Web3",
+    "TailwindCSS"
+  ],
+  links: [
+    {
+      type: "GitHub",
+      href: "https://github.com/tiwarishivam-pixel/Rolly-Polly",
+      icon: <Icons.github className="size-3" />
+    }
+  ],
+  image: "/rolly-polly.png",
+  video: ""
+},
+    {
       title: "More Projects & Open Source",
-      href: "https://github.com/tiwarishivam-pixel", 
+      href: "https://github.com/tiwarishivam-pixel",
       dates: "2023 - Present",
       active: true,
-      description: "While the projects above represent my featured full-stack and AI work, I have 14+ additional repositories ranging from Blockchain Smart Contracts (Solidity/Foundry) to Python-based automation tools and DSA implementations. Explore my full coding journey and open-source contributions on GitHub.",
+      description:
+        "While the projects above represent my featured full-stack and AI work, I have 14+ additional repositories ranging from Blockchain Smart Contracts (Solidity/Foundry) to Python-based automation tools and DSA implementations. Explore my full coding journey and open-source contributions on GitHub.",
       technologies: [
         "GitHub",
         "Open Source",
@@ -241,16 +298,16 @@ export const DATA = {
         "Foundry",
         "Python",
         "FastAPI",
-        "Docker"
+        "Docker",
       ],
-      "links": [
+      links: [
         {
-          "type": "Source",
-          "href": "https://github.com/tiwarishivam-pixel",
-          "icon": <Icons.github className="size-3" />
-        }
+          type: "Source",
+          href: "https://github.com/tiwarishivam-pixel",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/github-overview.png", 
+      image: "/github-overview.png",
       video: "",
     },
     // {
@@ -302,6 +359,22 @@ export const DATA = {
         },
       ],
     },
+    {
+  title: "TechCrafters Hackathon",
+  href: "",
+  dates: "2025",
+  location: "Mumbai, Mira Road",
+  description: "Won TechCrafters Hackathon by building an innovative full stack solution under competitive constraints. Led development of a scalable application integrating modern technologies, focusing on performance, user experience, and real-world problem solving.",
+  image: "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/63b6f0b49c4d2_hackathon_banner.png?d=1280x371",
+  mlh: "",
+  links: [
+    {
+      title: "Event Platform",
+      icon: <Icons.github className="h-4 w-4" />,
+      href: ""
+    }
+  ]
+},
     {
       title: "Mumbai Hacks",
       href: "",
