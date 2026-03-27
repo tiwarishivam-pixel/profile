@@ -20,9 +20,10 @@ export const DATA = {
   location: "Mumbai, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
-    "Engineer building products. Learning entrepreneurship. Building with AI, SaaS, and blockchain to solve real problems. Open to freelance and contract work.",
+    "Full Stack AI & Web3 Developer focused on building scalable, production-grade applications. Experienced in delivering high-quality software with strong system design and a commitment to reliability, performance, and on-time execution. Open to freelance and contract opportunities.",
+
   summary:
-    "I’m a software engineer in the making, currently working as a freelancer and building my own products. Instead of following a traditional job-first path, I’m focused on learning by building real-world projects and experimenting with SaaS and AI-based tools. So far, I’ve worked on multiple personal and freelance projects, explored full-stack development and AI, and I’m actively building products for creators and students. My goal is to turn ideas into useful software and grow into a full-time entrepreneur.",
+    "I am a Full Stack AI and Web3 Developer with hands-on experience in designing and delivering industry-level applications. I specialize in building end-to-end systems, from intuitive frontend interfaces to robust backend architectures and smart contract integrations. With a strong foundation in system design, distributed systems, and modern development practices, I focus on creating scalable, efficient, and production-ready solutions. I have worked across multiple domains including AI-powered platforms, SaaS products, and decentralized applications, consistently delivering projects with a professional approach and a strong emphasis on quality, performance, and deadlines.",
   avatarUrl: "/me.jpeg",
   skills: [
     { name: "React", icon: ReactLight },
@@ -261,29 +262,30 @@ export const DATA = {
       href: "",
       dates: "2025",
       active: true,
-      description: "A decentralized AI-powered prediction market platform that allows users to create and deploy custom on-chain AI agents. These agents analyze market trends, user behavior, and historical data to provide intelligent insights and predictions. Rolly-Polly combines blockchain transparency with AI-driven decision-making, enabling trustless, personalized financial guidance and automated strategies.",
+      description:
+        "A decentralized AI-powered prediction market platform that allows users to create and deploy custom on-chain AI agents. These agents analyze market trends, user behavior, and historical data to provide intelligent insights and predictions. Rolly-Polly combines blockchain transparency with AI-driven decision-making, enabling trustless, personalized financial guidance and automated strategies.",
       technologies: [
-    "Solidity",
-    "Ethereum",
-    "Ethers.js",
-    "React",
-    "Next.js",
-    "Node.js",
-    "AI APIs",
-    "Smart Contracts",
-    "Web3",
-    "TailwindCSS"
-  ],
-  links: [
-    {
-      type: "GitHub",
-      href: "https://github.com/tiwarishivam-pixel/Rolly-Polly",
-      icon: <Icons.github className="size-3" />
-    }
-  ],
-  image: "/rolly-polly.png",
-  video: ""
-},
+        "Solidity",
+        "Ethereum",
+        "Ethers.js",
+        "React",
+        "Next.js",
+        "Node.js",
+        "AI APIs",
+        "Smart Contracts",
+        "Web3",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/tiwarishivam-pixel/Rolly-Polly",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/rolly-polly.png",
+      video: "",
+    },
     {
       title: "More Projects & Open Source",
       href: "https://github.com/tiwarishivam-pixel",
@@ -360,21 +362,23 @@ export const DATA = {
       ],
     },
     {
-  title: "TechCrafters Hackathon",
-  href: "",
-  dates: "2025",
-  location: "Mumbai, Mira Road",
-  description: "Won TechCrafters Hackathon by building an innovative full stack solution under competitive constraints. Led development of a scalable application integrating modern technologies, focusing on performance, user experience, and real-world problem solving.",
-  image: "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/63b6f0b49c4d2_hackathon_banner.png?d=1280x371",
-  mlh: "",
-  links: [
-    {
-      title: "Event Platform",
-      icon: <Icons.github className="h-4 w-4" />,
-      href: ""
-    }
-  ]
-},
+      title: "TechCrafters Hackathon",
+      href: "",
+      dates: "2025",
+      location: "Mumbai, Mira Road",
+      description:
+        "Won TechCrafters Hackathon by building an innovative full stack solution under competitive constraints. Led development of a scalable application integrating modern technologies, focusing on performance, user experience, and real-world problem solving.",
+      image:
+        "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/63b6f0b49c4d2_hackathon_banner.png?d=1280x371",
+      mlh: "",
+      links: [
+        {
+          title: "Event Platform",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "",
+        },
+      ],
+    },
     {
       title: "Mumbai Hacks",
       href: "",
