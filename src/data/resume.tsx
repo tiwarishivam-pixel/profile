@@ -56,7 +56,7 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/shivam-tiwari-ai",
+        url: "https://www.linkedin.com/in/shivam-tiwari-2969392ba/",
         icon: Icons.linkedin,
         navbar: true,
       },
