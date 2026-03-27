@@ -223,7 +223,7 @@ export const DATA = {
         {
           type: "GitHub",
           href: "https://github.com/tiwarishivam-pixel/royale-rumble",
-          icon: '<Icons.github className="size-3" />',
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/royale-rumble.png",
