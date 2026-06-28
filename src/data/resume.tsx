@@ -5,13 +5,16 @@ import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { MongoDB } from "@/components/ui/svgs/mongodb";
-import { Solidity } from "@/components/ui/svgs/solidity";
-import { Foundry } from "@/components/ui/svgs/foundry";
+import { Redis } from "@/components/ui/svgs/redis";
 import { Python } from "@/components/ui/svgs/python";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Csharp } from "@/components/ui/svgs/csharp";
+import { Java } from "@/components/ui/svgs/java";
+import { Flutter } from "@/components/ui/svgs/flutter";
+import { ReactNative } from "@/components/ui/svgs/react-native";
+import { LangGraph } from "@/components/ui/svgs/langgraph";
+import { N8n } from "@/components/ui/svgs/n8n";
 
 export const DATA = {
   name: "Shivam Tiwari",
@@ -20,21 +23,26 @@ export const DATA = {
   location: "Mumbai, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/mumbai",
   description:
-    "Full Stack Developer & AI Engineer focused on building scalable SaaS platforms, AI-powered automation systems, and production-grade applications. Experienced in modern frontend/backend development, system design, AI workflows, and delivering reliable software solutions for startups and businesses.",
+    "Software Developer & AI Engineer specializing in building production-grade, full-scale software from mobile apps to scalable web platforms. I partner with startups and businesses to deliver end-to-end SaaS products and robust startup MVPs. Deeply focused on maximizing efficiency, I design high-impact AI workflows and custom automation systems—spanning business operations to engineering lifecycle optimization—to minimize development overhead and accelerate growth.",
 
   summary:
-    "I am a Full Stack Developer and AI Engineer with hands-on experience building scalable SaaS platforms, AI-powered automation systems, and modern web applications. I specialize in developing end-to-end systems ranging from responsive frontend interfaces to robust backend architectures and AI-driven workflows. My expertise includes Next.js, React, TypeScript, FastAPI, LangChain, LangGraph, and workflow automation tools. I focus on creating production-ready applications with strong system design, performance optimization, and scalable architecture. I have worked on AI platforms, startup products, automation pipelines, and real-time systems while maintaining a strong emphasis on reliability, clean engineering practices, and user experience.",
+    "Full-Time Freelance Software Developer and AI Engineer with hands-on experience building scalable SaaS platforms, cross-platform mobile apps, and robust web applications from the ground up. I specialize in delivering end-to-end startup products, bridging responsive frontends with high-performance backends and complex AI-driven workflows (Next.js, TypeScript, FastAPI, LangGraph, n8n). Driven by a philosophy of lean development, I engineer advanced automation systems—spanning business operations to software lifecycle pipelines—specifically designed to eliminate operational friction and minimize engineering overhead.",
   avatarUrl: "/me.jpeg",
   skills: [
+    { name: "Python", icon: Python },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Typescript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
-    { name: "Python", icon: Python },
     { name: "Postgres", icon: Postgresql },
     { name: "Docker", icon: Docker },
     { name: "Kubernetes", icon: Kubernetes },
     { name: "MongoDB", icon: MongoDB },
+    { name: "Redis", icon: Redis },
+    { name: "Flutter", icon: Flutter },
+    { name: "React Native", icon: ReactNative },
+    { name: "LangGraph", icon: LangGraph },
+    { name: "n8n", icon: N8n },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -116,7 +124,7 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "",
       start: "2025",
-      end: "2026",
+      end: "2025",
       description:
         "Worked on an internal startup focused on maid service management and booking workflows. Contributed to frontend architecture, backend integrations, responsive UI development, and scalable platform workflows.",
     },
@@ -125,7 +133,7 @@ export const DATA = {
       href: "",
       badges: ["Freelance"],
       location: "Remote",
-      title: "Full Stack Developer & AI Automation Engineer",
+      title: "Software Developer & AI Automation Engineer",
       logoUrl: "",
       start: "2024",
       end: "Present",
@@ -147,6 +155,28 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Automation Project",
+      href: "https://github.com/tiwarishivam-pixel/n8n_projects",
+      dates: "2025-26",
+      active: true,
+      description:
+        "repository showcases a production-grade Automation Monorepo featuring six distinct, event-driven AI engines built to solve real-world operational bottlenecks. Powered by n8n as the core orchestrator, these projects demonstrate my ability to design complex multi-agent systems, integrate LLMs with live APIs, manage vector memory, and build resilient backend workflow",
+      technologies: [
+        "n8n",
+        "OpenAI",
+        "gemini",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/tiwarishivam-pixel/n8n_projects",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/n8n.png",
+      video: "",
+    },
+    {
       title: "TalentOS - AI Placement and Career Coach",
       href: "https://placement-ai-chi.vercel.app/",
       dates: "September 2025 - Feb 2026",
@@ -154,13 +184,15 @@ export const DATA = {
       description:
         "Developed TalentOS, an AI-powered placement and career development platform featuring AI mentorship, interactive learning workflows, assessments, resume analysis, and real-time career guidance systems.",
       technologies: [
+        "langgraph",
+        "n8n",
         "Next.js",
         "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
         "PostgreSQL",
         "Prisma",
-        "TailwindCSS",
         "Stripe",
-        "Shadcn UI",
         "Gemini API",
         "Twilio",
       ],
@@ -212,6 +244,8 @@ export const DATA = {
       active: true,
       description: `An advanced "Text-to-App" platform that transforms natural language prompts into functional, production-ready React interfaces. Inspired by industry leaders like v0 and Lovable, LaunchLab features an iterative editing engine that allows users to generate, preview, and refine complex UI components in real-time.`,
       technologies: [
+        "langgraph",
+        "n8n",
         "Next.js",
         "Typescript",
         "PostgreSQL",
@@ -259,7 +293,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/royale-rumble.png",
+      image: "",
       video: "",
     },
     {
@@ -279,7 +313,7 @@ export const DATA = {
         "FastAPI",
       ],
       links: [],
-      image: "/twitter-agent.png",
+      image: "",
       video: "",
     },
     {
@@ -336,7 +370,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/rolly-polly.png",
+      image: "",
       video: "",
     },
     {
@@ -365,35 +399,7 @@ export const DATA = {
       image: "/github-overview.png",
       video: "",
     },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    
   ],
   hackathons: [
     {
